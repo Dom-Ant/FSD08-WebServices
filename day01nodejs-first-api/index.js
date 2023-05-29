@@ -4,9 +4,7 @@ const port = 3001;
 const server = createServer();
 
 server.on("request", (request, response) => {
-
     console.log(`URL: ${request.url}`);
-
 	response.end("Hello, server!");
 
 });
